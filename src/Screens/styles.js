@@ -3,7 +3,7 @@ import {StyleSheet, Text, View} from 'react-native';
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'cyan',
+    backgroundColor: 'gray',
   },
   titleContainer:{
     alignItems: 'center',
@@ -11,12 +11,12 @@ export const styles = StyleSheet.create({
   },
   title: {
     fontWeight: '800',
-    fontSize: 18,
+    fontSize: 23,
     shadowOpacity: 1,
     color: 'white',
     textDecorationLine: 'underline',
     textDecorationStyle: 'dotted',
-    textDecorationColor: 'gray'    
+    textDecorationColor: 'black',    
   },
   secondaryContainer:{
     alignItems: 'center',
@@ -26,7 +26,7 @@ export const styles = StyleSheet.create({
   text:{
     fontWeight: 'bold',
     fontSize: 16,
-    color: 'gray',
+    color: 'white',
   },
   inputContainer:{
     justifyContent: 'center',

@@ -34,7 +34,7 @@ export default HomeScreen = ({navigation}) => {
         <View style={styles.inputContainer}>
           <TextInput
             style={styles.input}
-            placeholder="What is your name?"
+            placeholder="Enter your name"
             value={GeneralResponse.name}
             onChangeText={(name)=>dispatch(SetName(name))}
             />
